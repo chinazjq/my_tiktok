@@ -87,11 +87,6 @@
 					"navigationBarTextStyle": "black"
 			   }
 			}
-            // "style": {
-            //     "navigationBarTitleText": "扫码分享",
-            //     "enablePullDownRefresh": false
-            // }
-            
         }
         ,{
             "path" : "pages/loginRegist/loginRegist",
