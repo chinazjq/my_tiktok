@@ -32,11 +32,14 @@ public class UsersVO {
     private Date createdTime;
     private Date updatedTime;
 
-    private String userToken;       // 用户token，传递给前端
+    // token认证信息
+    private String userToken;
 
+    // 我的关注数
     private Integer myFollowsCounts;
+    // 我的粉丝数
     private Integer myFansCounts;
-//    private Integer myLikedVlogCounts;
+    // 获赞数
     private Integer totalLikeMeCounts;
 
 }

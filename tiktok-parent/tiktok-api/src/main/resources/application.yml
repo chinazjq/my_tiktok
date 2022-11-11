@@ -33,4 +33,4 @@ pagehelper:
 # 日志级别
 logging:
   level:
-    root: warn
+    root: info

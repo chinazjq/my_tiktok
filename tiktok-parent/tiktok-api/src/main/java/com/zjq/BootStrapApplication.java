@@ -2,6 +2,7 @@ package com.zjq;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.ComponentScan;
 import tk.mybatis.spring.annotation.MapperScan;
 
 /**
@@ -12,6 +13,7 @@ import tk.mybatis.spring.annotation.MapperScan;
  */
 @SpringBootApplication
 @MapperScan(basePackages = "com.zjq.mapper")
+@ComponentScan(basePackages = {"com.zjq", "org.n3r.idworker"})
 public class BootStrapApplication {
 
     public static void main(String[] args) {
