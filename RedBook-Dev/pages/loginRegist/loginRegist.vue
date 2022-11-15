@@ -159,7 +159,7 @@
 			return {
 				statusBarHeight: 0,
 				
-				mobile: "13812345678",
+				mobile: "18095653258",
 				verifyCode: "",
 				codeBtnText: "获得验证码",
 				codeTimes: 0,
