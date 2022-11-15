@@ -101,6 +101,12 @@
             <artifactId>tencentcloud-sdk-java</artifactId>
             <version>3.1.270</version>
         </dependency>
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>5.1.10</version>
+            <scope>compile</scope>
+        </dependency>
     </dependencies>
 
 </project>
